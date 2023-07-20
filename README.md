@@ -1,2 +1,2 @@
-# unnamed_puzzle_game
+# Puzzle game project
 Brandnew Puzzle game
