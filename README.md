@@ -13,4 +13,7 @@ Brandnew Puzzle game
   - Nix (rabbitnix@postech.ac.kr)
 
 ## Resources :
+  - Nix
 
+## Thanks to :
+  - to be added
