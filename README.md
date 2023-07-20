@@ -7,6 +7,5 @@ Development Environment :
   -
 
 Main Contributors :
+  -
   - Nix (rabbitnix@postech.ac.kr)
-  - 
-
