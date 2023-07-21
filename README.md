@@ -18,3 +18,6 @@ Brandnew Puzzle game
 #### Thanks to :
   - to be added
 
+<div align=center>
+Copyright ⓒ Nix (2023~)
+</div>
