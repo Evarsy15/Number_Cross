@@ -5,15 +5,16 @@ Brandnew Puzzle game
 
 
 
-## Development Environment :
+## 개발 환경 | Development Environment :
 ```
   to be added
 ```
-## Main Contributors :
+## 메인 개발자 | Main Contributors :
   - Nix (rabbitnix@postech.ac.kr)
 
-## Resources :
+## 리소스 담당 | Resources :
   - Nix
 
 ## Thanks to :
   - to be added
+
