@@ -9,14 +9,24 @@ Brandnew Puzzle game
 ```
   to be added
 ```
+
+
 ### 메인 개발자 | Main Contributors :
   - Nix (rabbitnix@postech.ac.kr)
+
 
 ### 리소스 담당 | Resources :
   - Nix
 
+
 #### Thanks to :
   - to be added
+
+
+
+
+
+
 
 <div align=center>
 Copyright ⓒ Nix (2023~)
