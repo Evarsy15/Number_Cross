@@ -52,8 +52,9 @@ ex>
   - Nix
 
 ---
-#### Contact :
-  rabbitnix@postech.ac.kr
+#### Contact :  
+rabbitnix@postech.ac.kr
+
 #### Thanks to :
   - to be added
 
