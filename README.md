@@ -7,7 +7,9 @@ Brandnew Puzzle game
 
 ### 개발 환경 | Development Environment :
 ```
-  Considering Qt6 | PyQt6
+  Considering
+  - Qt6   (C++17 ↑)
+  - PyQt6 (Python 3.10 ↑)
 ```
 
 
