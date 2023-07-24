@@ -3,6 +3,7 @@ Brandnew Puzzle game
 ※ This is a primitive version of the game.
 
 
+---
 
 ## 퍼즐 설명 | How to play :
 본 퍼즐은 그리드 위를 한붓그리기하여 각 칸을 적힌 숫자만큼 지나가도록 하는 방법을 찾는 퍼즐입니다.  
