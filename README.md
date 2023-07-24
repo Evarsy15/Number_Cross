@@ -10,11 +10,12 @@ Brandnew Puzzle game
 각 퍼즐의 답은 유일하지 않을 수 있습니다.
 
 ex>
+
 ![puzzle_explanation](https://github.com/Evarsy15/Number_Cross/assets/102903994/e4b589a8-4d33-40b0-991b-767713832de0)
 
-###
-###
-###
+### 
+### 
+### 
 
 ### 개발 환경 | Development Environment :
 ```
