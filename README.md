@@ -13,7 +13,9 @@ Brandnew Puzzle game
 ex>
 
 <div align=center>
+
 ![puzzle_explanation](https://github.com/Evarsy15/Number_Cross/assets/102903994/e4b589a8-4d33-40b0-991b-767713832de0)
+
 </div>
 
 ### 
