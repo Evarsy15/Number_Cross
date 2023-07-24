@@ -39,6 +39,7 @@ ex>
 ### 리소스 담당 | Resources :
   - Nix
 
+---
 
 #### Thanks to :
   - to be added
