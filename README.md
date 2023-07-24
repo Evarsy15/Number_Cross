@@ -21,10 +21,12 @@ ex>
 ### 게임 모드 | Game mode :
 
   - 스토리 | Story :  
-  단계별로 어려워지는 퍼즐을 풀어 다음 맵을 잠금해제하세요! (기본 모드입니다.)
+    단계별로 어려워지는 퍼즐을 풀어 더 많은 맵을 잠금해제하세요! (기본 모드입니다.)  
+    Unlock more maps by solving progressively more difficult puzzles! (Basic mode)
     
   - 챌린지 | Challenge :  
-  다양한 기믹들이 있는 퍼즐을 풀어보세요!
+    다양한 기믹들이 있는 퍼즐을 풀어보세요!  
+    Solve puzzles with various gimmicks!
 
   - 타임어택 | Time Attack :  
     랜덤으로 주어지는 퍼즐을 빠르게 풀어라! 주어진 시간 안에 퍼즐을 풀어내지 못하면 게임 오버가 됩니다. 당신은 몇 개의 퍼즐을 풀어낼 수 있나요?
