@@ -1,13 +1,14 @@
 # Puzzle game project
-Brandnew Puzzle game
-
+Brandnew Puzzle game  
 ※ This is a primitive version of the game.
 
 
 
 ## 퍼즐 설명 | How to play :
-본 퍼즐은 직사각형 모양의 그리드 위를 한붓그리기하여 각 칸을 칸에 적힌 숫자만큼 지나가도록 하는 방법을 찾는 퍼즐입니다.  
-각 퍼즐의 답은 유일하지 않을 수 있습니다. 또한, 시작 위치는 특별히 정해져 있지 않는 한 자유입니다.
+본 퍼즐은 그리드 위를 한붓그리기하여 각 칸을 적힌 숫자만큼 지나가도록 하는 방법을 찾는 퍼즐입니다.  
+각 퍼즐의 답은 유일하지 않을 수 있습니다. 또한, 시작 위치는 특별히 정해져 있지 않는 한 자유입니다.  
+이동은 기본적으로 상하좌우 방향으로만 가능하나, 특수한 블럭에서는 대각선으로도 이동할 수 있습니다.
+
 
 ex>
 
@@ -52,8 +53,7 @@ ex>
   - Nix
 
 ---
-#### Contact :  
-rabbitnix@postech.ac.kr
+#### Contact : rabbitnix@postech.ac.kr
 
 #### Thanks to :
   - to be added
