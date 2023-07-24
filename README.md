@@ -17,6 +17,7 @@ Brandnew Puzzle game
 
 ### 리소스 담당 | Resources :
   - Nix
+  - 리소스 담당 모집합니다. 문의는 lovecomtus@naver.com
 
 
 #### Thanks to :
