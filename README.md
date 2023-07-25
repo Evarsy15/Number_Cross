@@ -43,8 +43,10 @@ ex>
 ### 개발 환경 | Development Environment :
 ```
   Considering
-  - Qt6   (C++17 ↑)
-  - PyQt6 (Python 3.10 ↑)
+    - Qt6   (C++17 ↑)
+    - PyQt6 (Python 3.10 ↑)
+
+  May introduce mobile version later.
 ```
 
 
@@ -59,7 +61,8 @@ ex>
 #### Contact : rabbitnix@postech.ac.kr
 
 #### Thanks to :
-  - to be added
+  - Song Gwanhyeong
+  - Guinipig (Idea for time limit & temporary name)
 
 
 
