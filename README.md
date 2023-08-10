@@ -32,7 +32,7 @@ ex>
   - 타임어택 | Time Attack :  
     랜덤으로 주어지는 퍼즐을 빠르게 풀어라! 주어진 시간 안에 퍼즐을 풀어내지 못하면 게임 오버가 됩니다.  
     당신은 몇 개의 퍼즐을 풀어낼 수 있나요?  
-    Beat puzzles as fast as possible! How many puzzles could you solve before time-out?
+    Beat puzzles as fast as possible! How many puzzles can you solve before time-out?
 
   - ~배틀 | Battle~ :  
     (TBD)
@@ -45,7 +45,6 @@ ex>
 ### 개발 환경 | Development Environment :
 ```
   Considering
-    - Qt6   (C++17 ↑)
     - PyQt6 (Python 3.10 ↑)
 
   May introduce mobile version later.
