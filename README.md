@@ -45,7 +45,7 @@ ex>
 ### 개발 환경 | Development Environment :
 ```
   Considering
-    - PyQt6 (Python 3.10 ↑)
+    - PyQt6 (Python 3.10.9)
 
   May introduce mobile version later.
 ```
