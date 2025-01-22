@@ -15,7 +15,7 @@ ex>
 
 <div align=center>
 
-![puzzle_explanation](https://github.com/Evarsy15/Number_Cross/assets/102903994/e4b589a8-4d33-40b0-991b-767713832de0)
+![Image](https://github.com/user-attachments/assets/d5ec575b-5274-4d23-acde-ec0879cb249d)
 
 </div>
 
