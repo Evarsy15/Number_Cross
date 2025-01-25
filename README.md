@@ -69,5 +69,5 @@ ex>
 
 
 <div align=center>
-Copyright ⓒ Nix (2023~)
+Copyright ⓒ Nix (2025~)
 </div>
