@@ -1,4 +1,4 @@
-# Puzzle game project
+# Number-Cross : Puzzle game project
 Brandnew Puzzle game  
 ※ This is a primitive version of the game.
 
@@ -15,7 +15,7 @@ ex>
 
 <div align=center>
 
-![Image](https://github.com/user-attachments/assets/d5ec575b-5274-4d23-acde-ec0879cb249d)
+![Explanation](https://github.com/user-attachments/assets/d5ec575b-5274-4d23-acde-ec0879cb249d)
 
 </div>
 

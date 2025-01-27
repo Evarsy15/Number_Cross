@@ -7,9 +7,11 @@
 '''
 
 import sys
-from PySide6.QtWidgets import *
+from PySide6.QtWidgets import QApplication
+from src.number_cross import NumberCross
 
-app = QApplication(sys.argv)
-prog = ()
-prog.show()
-app.exec_()
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    prog = NumberCross()
+    prog.show()
+    sys.exit(app.exec())
