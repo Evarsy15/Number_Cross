@@ -6,7 +6,8 @@ from PySide6.QtWidgets import QWidget, QGraphicsScene, QGraphicsView
 
 from include.settings import Settings
 
-from src.start_scene import StartScene
+from src.start_scene  import StartScene
+from src.select_scene import SelectScene
 
 class NumberCross(QGraphicsView):
     def __init__(self):
@@ -22,9 +23,8 @@ class NumberCross(QGraphicsView):
         self.setWindowTitle('Number Cross')
 
     ### Set all scenes required
-        self.start_scene = StartScene(QRect(0, 0, 1280, 720))
-
-        
+        self.start_scene  = StartScene()
+        self.select_scene = SelectScene()
 
         # Connect Signals to Slot
         self.connect_signal_and_slot()
@@ -35,7 +35,7 @@ class NumberCross(QGraphicsView):
     ### Slots for Start Scene (Scene #0)
     def S0_startClickedHandler(self):
         print('Start Scene : startClickedHandler()')
-
+        self.setScene(self.select_scene)
 
     
     def S0_howtoClickedHandler(self):

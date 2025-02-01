@@ -9,6 +9,7 @@ class StartScene(QGraphicsScene):
     def __init__(self, parent : QObject | None = None):
         super().__init__(parent)
         self.setObjectName('Scene_#0_Start_Window')
+        self.setSceneRect(0, 0, 1280, 720)
 
         self.load_resource()
         self.setup_ui()
@@ -30,6 +31,11 @@ class StartScene(QGraphicsScene):
     
     def optionsButtonClickedHandler(self):
         self.optionClicked.emit()
+
+
+    ################################
+    ### Scene UI Setup           ###
+    ################################
 
     def setup_ui(self):
         self.item_background = self.addPixmap(self.pixmap_background)
