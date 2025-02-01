@@ -9,23 +9,25 @@
 from enum import Enum
 from PySide6.QtCore import Qt, QObject, Signal
 from PySide6.QtGui import QPixmap
-from PySide6.QtWidgets import QGraphicsPixmapItem
+from PySide6.QtWidgets import QGraphicsPixmapItem, QGraphicsItem
 
 '''
     ImageButton provides image-based button available in QGraphicsScene,
     which is widely used in game application.
 '''
-class ImageButton(QGraphicsPixmapItem):
+class ImageButton(QObject, QGraphicsPixmapItem):
     
     buttonClicked = Signal()
-    
+
     class ButtonMode(Enum):
         ActivateWhenPressed  = 0
         ActivateWhenReleased = 1
 
     def __init__(self, pixmap : QPixmap,
-                       parent : QObject | None = None):
-        super().__init__(pixmap, parent)
+                       parent : QObject | None = None,
+                       parentItem : QGraphicsItem | None = None):
+        QObject.__init__(self, parent)
+        QGraphicsPixmapItem.__init__(self, pixmap, parentItem)
 
         # Set Cursor | Default : PointingHandCursor
         self.setCursor(Qt.CursorShape.PointingHandCursor)
@@ -37,8 +39,7 @@ class ImageButton(QGraphicsPixmapItem):
         self.__button_mode = buttonMode
     
     def mousePressEvent(self, event):
-        if self.__button_mode == ImageButton.ButtonMode.ActivateWhenPressed:
-            self.buttonClicked.emit()
+        self.buttonClicked.emit()
     
     def mouseReleaseEvent(self, event):
         if self.__button_mode == ImageButton.ButtonMode.ActivateWhenPressed:
