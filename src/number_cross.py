@@ -31,18 +31,25 @@ class NumberCross(QGraphicsView):
 
         # Set initial scene as StartScene
         self.setScene(self.start_scene)
-    
+
+    #########################################
+    ### Slots
+    #########################################
+
     ### Slots for Start Scene (Scene #0)
     def S0_startClickedHandler(self):
         print('Start Scene : startClickedHandler()')
         self.setScene(self.select_scene)
-
     
     def S0_howtoClickedHandler(self):
         print('Start Scene : howtoClickedHandler()')
 
     def S0_optionClickedHandler(self):
         print('Start Scene : optionClickedHandler()')
+    
+    ### Slots for Select Scene (Scene #1)
+    def S1_gobackClickedHandler(self):
+        self.setScene(self.start_scene)
 
     ### Signal-Slot Connector
     def connect_signal_and_slot(self):
@@ -54,3 +61,6 @@ class NumberCross(QGraphicsView):
         # Scene 0-1 : How-to-play Scene
 
         # Scene 0-2 : Options Setting Scene
+
+        # Scene 1 : Game Mode Select Scene
+        self.select_scene.gobackClicked.connect(self.S1_gobackClickedHandler)
