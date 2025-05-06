@@ -6,8 +6,9 @@ from PySide6.QtWidgets import QWidget, QGraphicsScene, QGraphicsView
 
 from include.settings import Settings
 
-from src.start_scene  import StartScene
-from src.select_scene import SelectScene
+from src.scene.start_scene     import StartScene
+from src.scene.select_scene    import SelectScene
+from src.scene.challenge_scene import ChallengeMainScene
 
 class NumberCross(QGraphicsView):
     def __init__(self):
@@ -23,8 +24,14 @@ class NumberCross(QGraphicsView):
         self.setWindowTitle('Number Cross')
 
     ### Set all scenes required
+        # Scene #0
         self.start_scene  = StartScene()
+
+        # Scene #1
         self.select_scene = SelectScene()
+
+        # Scene #3
+        self.challenge_scene = ChallengeMainScene()
 
         # Connect Signals to Slot
         self.connect_signal_and_slot()
@@ -32,11 +39,11 @@ class NumberCross(QGraphicsView):
         # Set initial scene as StartScene
         self.setScene(self.start_scene)
 
-    #########################################
-    ### Slots
-    #########################################
+#########################################
+### Slots
+#########################################
 
-    ### Slots for Start Scene (Scene #0)
+### Slots for Start Scene (Scene #0)
     def S0_startClickedHandler(self):
         print('Start Scene : startClickedHandler()')
         self.setScene(self.select_scene)
@@ -47,11 +54,16 @@ class NumberCross(QGraphicsView):
     def S0_optionClickedHandler(self):
         print('Start Scene : optionClickedHandler()')
     
-    ### Slots for Select Scene (Scene #1)
+### Slots for Select Scene (Scene #1)
+    def S1_challengeClickedHandler(self):
+        print('Select Scene : challengeClickedHandler()')
+
     def S1_gobackClickedHandler(self):
         self.setScene(self.start_scene)
 
-    ### Signal-Slot Connector
+#########################################
+### Signal-Slot Connector
+#########################################
     def connect_signal_and_slot(self):
         # Scene 0 : Start Scene
         self.start_scene.startClicked.connect(self.S0_startClickedHandler)
@@ -63,4 +75,5 @@ class NumberCross(QGraphicsView):
         # Scene 0-2 : Options Setting Scene
 
         # Scene 1 : Game Mode Select Scene
+        self.select_scene.challengeClicked.connect(self.S1_challengeClickedHandler)
         self.select_scene.gobackClicked.connect(self.S1_gobackClickedHandler)

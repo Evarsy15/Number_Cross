@@ -58,13 +58,13 @@ class StartScene(QGraphicsScene):
 
     ### Image Loader
     def load_resource(self):
-        _image_root = os.path.join(os.path.dirname(__file__), '../image')
+        _image_root = os.path.join(os.path.dirname(__file__), '../../image')
 
-        self.pixmap_background = QPixmap(os.path.join(_image_root, 'backgrounds/TEMP_bg_start_scene.jpg'))
+        self.pixmap_background = QPixmap(os.path.join(_image_root, 'backgrounds/TEMP_Start_Scene_BGjpg'))
 
-        self.pixmap_button_start  = QPixmap(os.path.join(_image_root, 'buttons/button_start.png'))
-        self.pixmap_button_how_to = QPixmap(os.path.join(_image_root, 'buttons/button_how_to.png'))
-        self.pixmap_button_option = QPixmap(os.path.join(_image_root, 'buttons/button_options.png'))
+        self.pixmap_button_start  = QPixmap(os.path.join(_image_root, 'buttons/scene_#0/start_game.png'))
+        self.pixmap_button_how_to = QPixmap(os.path.join(_image_root, 'buttons/scene_#0/how_to_play.png'))
+        self.pixmap_button_option = QPixmap(os.path.join(_image_root, 'buttons/scene_#0/options.png'))
 
         self.pixmap_authorizer = QPixmap(os.path.join(_image_root, 'misc/authorize.png'))
     

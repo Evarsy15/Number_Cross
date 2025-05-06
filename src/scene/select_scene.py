@@ -63,15 +63,15 @@ class SelectScene(QGraphicsScene):
 
     ### Image Loader
     def load_resource(self):
-        _image_root = os.path.join(os.path.dirname(__file__), '../image')
+        _image_root = os.path.join(os.path.dirname(__file__), '../../image')
 
         self.pixmap_background = QPixmap(os.path.join(_image_root, 'backgrounds/TEMP_Select_Scene_BG.jpg'))
 
-        self.pixmap_button_story_mode  = QPixmap(os.path.join(_image_root, 'buttons/button-select_story_mode.png'))
-        self.pixmap_button_challenge   = QPixmap(os.path.join(_image_root, 'buttons/button-select_challenge.png'))
-        self.pixmap_button_time_attack = QPixmap(os.path.join(_image_root, 'buttons/button-select_time_attack.png'))
+        self.pixmap_button_story_mode  = QPixmap(os.path.join(_image_root, 'buttons/scene_#1/story_mode.png'))
+        self.pixmap_button_challenge   = QPixmap(os.path.join(_image_root, 'buttons/scene_#1/challenge.png'))
+        self.pixmap_button_time_attack = QPixmap(os.path.join(_image_root, 'buttons/scene_#1/time_attack.png'))
 
-        self.pixmap_button_go_back = QPixmap(os.path.join(_image_root, 'buttons/button-select_go_back.png'))
+        self.pixmap_button_go_back = QPixmap(os.path.join(_image_root, 'buttons/scene_#1/prev_scene.png'))
 
         self.pixmap_text_select_mode = QPixmap(os.path.join(_image_root, 'misc/Select-Mode-Text.png'))
     
